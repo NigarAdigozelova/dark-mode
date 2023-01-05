@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body.dark{
+  background-color: black;
+  color: white;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+.inp{
+  display: flex;
+  justify-content: space-between;
+
+}
+li{
+  list-style-type: none;
+  
+}
+i{
+  color: red;
+}
+.list{
+  margin: 10px;
+  border: 2px solid red;  
+  border-radius: 10px;
+}
+.complete{
+  text-decoration-line:line-through ;
+}
